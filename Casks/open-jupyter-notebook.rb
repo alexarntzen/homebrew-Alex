@@ -7,4 +7,9 @@ cask 'open-jupyter-notebook' do
   homepage 'https://github.com/alexarntzen/open-jupyter-notebook'
 
   app 'open-jupyter-notebook-master/Open Jupyter Notebook.app'
+  installer script: {
+  executable: "pip3 install nbopen",
+  args:       ["-silent"],
+  sudo:       true,
+}
 end
