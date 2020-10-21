@@ -6,5 +6,5 @@ cask 'open-jupyter-notebook' do
   name 'Open Jupyter Notebook'
   homepage 'https://github.com/alexarntzen/open-jupyter-notebook'
 
-  app 'openJupyterMacos-master/JupyterNotebookOpen.app'
+  app 'open-jupyter-notebook-master/Open Jupyter Notebook.app'
 end
