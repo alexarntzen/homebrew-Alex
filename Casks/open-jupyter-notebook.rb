@@ -1,6 +1,6 @@
 cask 'open-jupyter-notebook' do
   version '0.4'
-  sha256 '4d9f0aad57734dc88f8932cb41b388d7e96edb8fc31b00dfe257eedb6917c829'
+  sha256 'd1f461a047262f5218f3835176c68b2d262c53baebba2ee9eb731107382c0dae'
 
   url "https://github.com/alexarntzen/open-jupyter-notebook/archive/0.4.tar.gz"
   name 'Open Jupyter Notebook'
