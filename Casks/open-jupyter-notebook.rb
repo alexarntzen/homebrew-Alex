@@ -8,7 +8,7 @@ cask 'open-jupyter-notebook' do
   homepage 'https://github.com/alexarntzen/open-jupyter-notebook'
 
   installer script: {
-    executable: "Open Jupyter Notebook.app/Contents/Resources/install_script.sh",
+    executable: "open-jupyter-notebook-0.3/Open Jupyter Notebook.app/Contents/Resources/install_script.sh",
   }
   
   app 'open-jupyter-notebook-0.3/Open Jupyter Notebook.app'
