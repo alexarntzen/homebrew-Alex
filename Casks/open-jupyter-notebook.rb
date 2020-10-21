@@ -9,8 +9,6 @@ cask 'open-jupyter-notebook' do
 
   installer script: {
     executable: "Open Jupyter Notebook.app/Contents/Resources/install_script.sh",
-    args:       ["-silent"],
-    sudo:       true,
   }
   
   app 'open-jupyter-notebook-master/Open Jupyter Notebook.app'
