@@ -7,7 +7,7 @@ cask 'open-jupyter-notebook' do
   desc "App that opens Jypter Notebooks with double click"
   homepage 'https://github.com/alexarntzen/open-jupyter-notebook'
 
-  install script: {
+  installer script: {
     executable: "Open Jupyter Notebook.app/Contents/Resources/install_script.sh",
     args:       ["-silent"],
     sudo:       true,
