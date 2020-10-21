@@ -7,14 +7,12 @@ cask 'open-jupyter-notebook' do
   desc "App that opens Jypter Notebooks with double click"
   homepage 'https://github.com/alexarntzen/open-jupyter-notebook'
 
-  app 'open-jupyter-notebook-master/Open Jupyter Notebook.app'
-  preflight do 
-    system_command 'pip3 install nbopen;'
-  end 
   
   installer script: {
-    executable: "pip3 install nbopen",
+    executable: "open-jupyter-notebook-master/install_script.sh",
     args:       ["-silent"],
     sudo:       true,
   }
+  app 'open-jupyter-notebook-master/Open Jupyter Notebook.app'
+
 end
