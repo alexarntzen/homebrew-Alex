@@ -9,7 +9,7 @@ cask 'open-jupyter-notebook' do
 
   
   installer script: {
-    "pip3 install nbopen"
+    script: "pip3 install nbopen"
   }
   app 'open-jupyter-notebook-master/Open Jupyter Notebook.app'
 
