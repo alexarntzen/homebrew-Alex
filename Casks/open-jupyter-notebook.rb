@@ -9,7 +9,7 @@ cask 'open-jupyter-notebook' do
 
   
   installer script: {
-    executable: "install_script.sh",
+    executable: "../install_script.sh",
   }
   app 'open-jupyter-notebook-master/Open Jupyter Notebook.app'
 
